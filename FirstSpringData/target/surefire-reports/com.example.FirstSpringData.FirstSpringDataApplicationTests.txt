@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.example.FirstSpringData.FirstSpringDataApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.305 sec - in com.example.FirstSpringData.FirstSpringDataApplicationTests
