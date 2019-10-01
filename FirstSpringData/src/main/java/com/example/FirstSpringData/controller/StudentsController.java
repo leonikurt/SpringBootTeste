@@ -15,8 +15,12 @@ import com.example.FirstSpringData.repository.StudentsRepository;
 @RestController
 public class StudentsController {
 	
-	@Autowired
 	StudentsRepository studentsRepository;
+	
+	@Autowired
+	public StudentsController(StudentsRepository studentsRepository) {
+		this.studentsRepository = studentsRepository;
+	}	
 	
 	@RequestMapping(value="/students", method= RequestMethod.GET)
 	public List<Students> listStudent(){
